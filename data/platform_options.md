@@ -102,7 +102,9 @@ http://techblog.netflix.com/2013/12/announcing-suro-backbone-of-netflixs.html
 
 [StreamSets](https://streamsets.com/) is the industry’s first data operations platform. With StreamSets data operations platform you can efficiently develop batch and streaming dataflows, operate them with full visibility and control, and easily evolve your architecture over time.
 
+### Snap
 
+[Snap](http://snap-telemetry.io/) is a powerful open telemetry framework. Easily collect, process, and publish telemetry data at scale.
 
 # Components
 
