@@ -106,6 +106,10 @@ http://techblog.netflix.com/2013/12/announcing-suro-backbone-of-netflixs.html
 
 [Snap](http://snap-telemetry.io/) is a powerful open telemetry framework. Easily collect, process, and publish telemetry data at scale.
 
+### DataFusion
+
+[DataFusion](https://datafusion.rs/): Modern Distributed Compute Platform implemented in Rust. Code on [github](https://github.com/datafusion-rs/datafusion)
+
 # Components
 
 ### Mesos
@@ -299,6 +303,44 @@ Netifi [Proteus](https://netifi.com/proteus.html) is the next-generation reactiv
 ### ClickHouse
 
 [ClickHouse](https://clickhouse.yandex/) is an open source column-oriented database management system capable of real time generation of analytical data reports using SQL queries.
+
+### MQTT
+
+[MQTT](http://mosquitto.org/man/mqtt-7.html) is a lightweight publish/subscribe messaging protocol. It is useful for use with low power sensors, but is applicable to many scenarios.
+
+### Roughtime
+
+[Roughtime](https://roughtime.googlesource.com/roughtime) is a project that aims to provide secure time synchronisation.
+
+### Great Expectations
+
+[Great Expectations](https://github.com/great-expectations/great_expectations) is a framework that helps teams save time and promote analytic integrity with a new twist on automated testing: pipeline tests. Pipeline tests are applied to data (instead of code) and at batch time (instead of compile or deploy time). Blog post: ["Down with pipeline debt"](https://medium.com/@expectgreatdata/down-with-pipeline-debt-introducing-great-expectations-862ddc46782a)
+
+### Sia
+
+[Sia](https://sia.tech/) is a decentralized storage platform secured by blockchain technology. The Sia Storage Platform leverages underutilized hard drive capacity around the world to create a data storage marketplace that is more reliable and lower cost than traditional cloud storage providers.
+
+### Mixpanel
+
+[Mixpanel](https://mixpanel.com/): Understand every user's journey. Acquire, engage, and retain with actionable user analytics.
+
+### DBT
+
+[dbt](https://docs.getdbt.com/docs/overview) (data build tool) is a productivity tool that helps analysts get more done and produce higher quality results.
+
+Analysts commonly spend 50-80% of their time modeling raw data—cleaning, reshaping, and applying fundamental business logic to it. dbt empowers analysts to do this work better and faster.
+
+### InfluxDB
+
+[InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/) is used as a data store for any use case involving large amounts of timestamped data, including DevOps monitoring, application metrics, IoT sensor data, and real-time analytics. Conserve space on your machine by configuring InfluxDB to keep data for a defined length of time, automatically expiring & deleting any unwanted data from the system. InfluxDB also offers a SQL-like query language for interacting with data.
+
+### StreamX
+
+[StreamX](https://github.com/qubole/streamx) is a kafka-connect based connector to copy data from Kafka to Object Stores like Amazon s3, Google Cloud Storage and Azure Blob Store. It focusses on reliable and scalable data copying. It can write the data out in different formats (like parquet, so that it can readily be used by analytical tools) and also in different partitioning requirements.
+
+### Databricks Delta
+
+[Databricks Delta](https://databricks.com/blog/2017/10/25/databricks-delta-a-unified-management-system-for-real-time-big-data.html) is a unified data management system to simplify large-scale data management.
 
 
 # Ideas and Research
