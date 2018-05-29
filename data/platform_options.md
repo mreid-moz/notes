@@ -112,6 +112,10 @@ http://techblog.netflix.com/2013/12/announcing-suro-backbone-of-netflixs.html
 
 # Components
 
+## Serialization Formats
+
+See [serialization](serialization.md).
+
 ### Mesos
 
 [Apache Mesos](http://mesos.apache.org/) is a cluster manager that simplifies the complexity of running applications on a shared pool of servers.
@@ -180,10 +184,6 @@ The [Apache Mahout](https://mahout.apache.org/) project's goal is to build a sca
 
 [Sensu](http://sensuapp.org/) is often described as the “monitoring router”. Essentially, Sensu takes the results of “check” scripts run across many systems, and if certain conditions are met; passes their information to one or more “handlers”.
 
-### Parquet
-
-[Apache Parquet](http://parquet.incubator.apache.org/) is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
-
 ### dCache
 
 [dCache](http://www.dcache.org/) A system for storing and retrieving huge amounts of data, distributed among a large number of heterogenous server nodes, under a single virtual filesystem tree with a variety of standard access methods.
@@ -247,10 +247,6 @@ The [Apache Mahout](https://mahout.apache.org/) project's goal is to build a sca
 ### DistributedLog
 
 [DistributedLog](http://distributedlog.io/html/index.html) (DL) is a high-performance, replicated log service, offering durability, replication and strong consistency as essentials for building reliable distributed systems.
-
-### CBOR
-
-[Cbor](http://cbor.me/) (Concise Binary Object Representation) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
 
 ### Apache Beam
 
@@ -411,10 +407,9 @@ Ruled out because: dead project.
     - Frustration-free log management.
 - [Jethro](https://jethro.io/)
     - A SQL-on-Hadoop engine, Jethro acts as a BI-on-Hadoop acceleration layer that speeds up big data query performance for BI tools like Tableau, Qlik and Microstrategy from any data source like Hadoop or Amazon S3.
+- [Periscope](https://www.periscopedata.com/blog) announced their [Unified Data Platform](https://www.periscopedata.com/blog/unified-data-platform) in 2017.
 
 # Bibliography
-
-
 
 1. [http://jasonwilder.com/blog/2013/11/19/fluentd-vs-logstash/](http://jasonwilder.com/blog/2013/11/19/fluentd-vs-logstash/)
 2. [http://highscalability.com/blog/2014/8/18/1-aerospike-server-x-1-amazon-ec2-instance-1-million-tps-for.html](http://highscalability.com/blog/2014/8/18/1-aerospike-server-x-1-amazon-ec2-instance-1-million-tps-for.html)
