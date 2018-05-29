@@ -2,9 +2,6 @@
 
 This repository contains notes about things I find interesting or useful.
 
-[Data Platform Options](data/platform_options.md) is a long but by no means exhaustive list of "Big Data" platforms, components, and tools with a brief summary of each.
+## Data stuff
 
-
-## To-organize
-
-* https://www.periscopedata.com/blog/unified-data-platform
+[Data Platform Options](data/platform_options.md) is a long but by no means exhaustive list of "Big Data" platforms, components, and tools with a brief summary of each. There's a link in there to a section just for [Data Serialization Formats](data/serialization.md).
