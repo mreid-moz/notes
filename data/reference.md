@@ -10,6 +10,10 @@
 
 - [Scala Best Practices from `alexandru`](https://github.com/alexandru/scala-best-practices)
 
+## Scheduling & Coordination
+
+- [Awesome Apache Airflow](https://github.com/jghoman/awesome-apache-airflow) - A curated list of resources about Airflow.
+
 ## Data & Software architecture
 
 - Amplitude's [Data Taxonomy Playbook](https://amplitude.zendesk.com/hc/en-us/articles/115000465251). Specific to Amplitude, but it is generally important to think carefully about a taxonomy of the data you will use early on.
