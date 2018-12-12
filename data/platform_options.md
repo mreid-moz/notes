@@ -338,6 +338,14 @@ Analysts commonly spend 50-80% of their time modeling raw data—cleaning, resha
 
 [Databricks Delta](https://databricks.com/blog/2017/10/25/databricks-delta-a-unified-management-system-for-real-time-big-data.html) is a unified data management system to simplify large-scale data management.
 
+### Apache Arrow
+
+[Apache Arrow](https://arrow.apache.org/) is a cross-language development platform for in-memory data.
+
+### TrailDB
+
+[TrailDB](http://traildb.io/) is an efficient tool for storing and querying series of events.
+
 
 # Ideas and Research
 
@@ -408,6 +416,7 @@ Ruled out because: dead project.
 - [Jethro](https://jethro.io/)
     - A SQL-on-Hadoop engine, Jethro acts as a BI-on-Hadoop acceleration layer that speeds up big data query performance for BI tools like Tableau, Qlik and Microstrategy from any data source like Hadoop or Amazon S3.
 - [Periscope](https://www.periscopedata.com/blog) announced their [Unified Data Platform](https://www.periscopedata.com/blog/unified-data-platform) in 2017.
+- [Sentry](https://sentry.io/welcome/) Open-source error tracking that helps developers monitor and fix crashes in real time. Iterate continuously. Boost efficiency. Improve user experience.
 
 # Bibliography
 
@@ -428,3 +437,5 @@ Ruled out because: dead project.
 15. [http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis](http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis)
 16. [https://aws.amazon.com/blogs/aws/dynamodb-streams-preview/](https://aws.amazon.com/blogs/aws/dynamodb-streams-preview/)
 17. http://blog.confluent.io/2015/03/04/turning-the-database-inside-out-with-apache-samza/
+18. [Prometheus vs. other time-series databases](https://prometheus.io/docs/introduction/comparison/)
+19. [Workflow Managers](https://github.com/erikbern/workflow-managers)
