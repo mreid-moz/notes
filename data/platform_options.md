@@ -346,6 +346,10 @@ Analysts commonly spend 50-80% of their time modeling raw data—cleaning, resha
 
 [TrailDB](http://traildb.io/) is an efficient tool for storing and querying series of events.
 
+### Pinot
+
+[Pinot](https://pinot.readthedocs.io/en/latest/intro.html) is a realtime distributed OLAP datastore, which is used at LinkedIn to deliver scalable real time analytics with low latency.
+
 
 # Ideas and Research
 
