@@ -350,6 +350,32 @@ Analysts commonly spend 50-80% of their time modeling raw data—cleaning, resha
 
 [Pinot](https://pinot.readthedocs.io/en/latest/intro.html) is a realtime distributed OLAP datastore, which is used at LinkedIn to deliver scalable real time analytics with low latency.
 
+### Intake
+
+[Intake](https://www.anaconda.com/intake-taking-the-pain-out-of-data-access/) is a data access layer and cataloging system.
+
+### Crunch
+
+[Apache Crunch](https://crunch.apache.org/user-guide.html) is a framework for writing, testing and running MapReduce pipelines.
+
+### Spline
+
+[Spline](https://absaoss.github.io/spline/) - Data Lineage Tracking and Visualization tool for Apache Spark. The project consists of two parts:
+- A core library that sits on drivers, capturing data lineages from the jobs being executed by analyzing Spark execution plans
+- A Web UI application that visualizes the stored data lineages.
+
+### Gobblin
+
+[Apache Gobblin](https://gobblin.apache.org/) is a distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
+
+### Dask
+
+[Dask](https://dask.org/) provides scalable analytics in Python.
+
+### Prefect
+
+[Prefect](https://github.com/prefecthq/prefect) is a workflow management system.
+
 
 # Ideas and Research
 
