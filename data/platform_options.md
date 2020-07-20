@@ -252,6 +252,10 @@ The [Apache Mahout](https://mahout.apache.org/) project's goal is to build a sca
 
 [Apache Beam](https://beam.apache.org/get-started/beam-overview/) is an open source, unified programming model that you can use to create a data processing pipeline. You start by building a program that defines the pipeline using one of the open source Beam SDKs. The pipeline is then executed by one of Beam’s supported distributed processing back-ends, which include[Apache Apex](http://apex.apache.org),[Apache Flink](http://flink.apache.org),[Apache Spark](http://spark.apache.org), and [Google Cloud Dataflow](https://cloud.google.com/dataflow).
 
+#### Beam SQL
+
+[Beam SQL](https://beam.apache.org/documentation/dsls/sql/overview/) allows a Beam user (currently only available in Beam Java) to query bounded and unbounded PCollections with SQL statements. Your SQL query is translated to a PTransform, an encapsulated segment of a Beam pipeline. You can freely mix SQL PTransforms and other PTransforms in your pipeline.
+
 ### AWS Glue
 
 [AWS Glue](https://aws.amazon.com/glue/) is a fully managed ETL service that makes it easy to move data between your data stores. AWS Glue simplifies and automates the difficult and time consuming data discovery, conversion, mapping, and job scheduling tasks.
@@ -376,6 +380,13 @@ Analysts commonly spend 50-80% of their time modeling raw data—cleaning, resha
 
 [Prefect](https://github.com/prefecthq/prefect) is a workflow management system.
 
+### M3DB
+
+[M3](https://www.m3db.io/) - The fully open source metrics platform built on M3DB, a distributed timeseries database
+
+### QuestDB
+
+[QuestDB](https://www.questdb.io/) is a SQL open-source time-series database to store, stream and query data - faster
 
 # Ideas and Research
 
@@ -447,6 +458,7 @@ Ruled out because: dead project.
     - A SQL-on-Hadoop engine, Jethro acts as a BI-on-Hadoop acceleration layer that speeds up big data query performance for BI tools like Tableau, Qlik and Microstrategy from any data source like Hadoop or Amazon S3.
 - [Periscope](https://www.periscopedata.com/blog) announced their [Unified Data Platform](https://www.periscopedata.com/blog/unified-data-platform) in 2017.
 - [Sentry](https://sentry.io/welcome/) Open-source error tracking that helps developers monitor and fix crashes in real time. Iterate continuously. Boost efficiency. Improve user experience.
+- [Alteryx](https://www.alteryx.com/) A platform for end-to-end automation of analytics, machine learning, and data science processes
 
 # Bibliography
 
